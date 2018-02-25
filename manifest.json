@@ -1,0 +1,18 @@
+{
+ "package": "Enable-Motors",
+ "language": "python",
+ "author": "rdegosse",
+ "description": "Change motors config : movement_keep_active_<x,y,z>",
+ "version": "1.0.0",
+ "min_os_version_major": 6,
+ "url": "https://raw.githubusercontent.com/rdegosse/Enable-Motors/master/manifest.json",
+ "zip": "https://github.com/rdegosse/Enable-Motors/archive/master.zip",
+ "executable": "python",
+ "args": ["Enable-Motors-master/Enable-Motors/script.py"],
+ "config": [
+  {"name": "movement_keep_active_x", "label": "Keep Active X Motors (1:enable 0:disable)", "value": 1},
+  {"name": "movement_keep_active_y", "label": "Keep Active Y Motor (1:enable 0:disable)", "value": 1},
+  {"name": "movement_keep_active_z", "label": "Keep Active Z Motor (1:enable 0:disable)", "value": 1},
+  {"name": "debug", "label": "Debug (0-> No FW debug msg, 1-> FW debug msg)", "value": 1}
+  ]
+}
