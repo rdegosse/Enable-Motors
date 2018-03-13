@@ -5,7 +5,7 @@ Python wrappers for FarmBot Celery Script JSON nodes.
 
 rdegosse - ADD From Original CeleryScript
 return ret in wrapper function
-add 
+add config_update
 """
 import os
 import json
